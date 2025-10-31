@@ -11,6 +11,6 @@
 // </body>
 // </html>
 
-// Membuat hello dengan JavaScript dalam HTML sederhana
+// Program di atas membuat hello dengan JavaScript dalam HTML sederhana
 
 document.writeln("Hello, World!");
