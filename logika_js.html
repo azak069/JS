@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logika</title>
+</head>
+<body>
+    <script>
+        const nilaiUjian = 90;
+        const nilaiAbsen = 70;
+        document.writeln("Nilai Ujian = " + nilaiUjian);
+        document.writeln("</br>");
+        document.writeln("Nilai Absen = " + nilaiAbsen);
+        document.writeln("</br>");
+        const lulusUjian = nilaiUjian > 75;
+        document.writeln("Lulus Ujian = " + lulusUjian);
+        document.writeln("</br>");
+        const lulusAbsen = nilaiAbsen > 75;
+        document.writeln("Lulus Absen = " + lulusAbsen);
+        document.writeln("</br>");
+        const lulus = lulusUjian && lulusAbsen;
+        document.writeln("Lulus = " + lulus);
+    </script>
+</body>
+</html>
