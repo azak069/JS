@@ -19,4 +19,4 @@ if (orang.nama === undefined){
     console.info("Objek ada.");
 }
 
-// Program ini memperlihatkan tipe data undifined, yaitu data yang tidak memiliki nilai di dalamnya
+// Program ini memperlihatkan tipe data undifined, yaitu data yang tidak diberi nilai di dalamnya
