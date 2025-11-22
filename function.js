@@ -39,7 +39,7 @@ function luar(nama){
     }
 
     dalam(nama);
-}; // bisa membuat funtion di dalam funtion, tapi hanya bisa diakses di dalamnya
+}; // bisa membuat funtion di dalam funtion(nested function), tapi hanya bisa diakses di dalamnya
 
 luar("Camus");
 // dalam(); // tidak bisa diakses di luar
@@ -56,5 +56,19 @@ function nomor(){
 
 nomor(); 
 console.info(angka);
+
+function pertama(){
+    let varPertama = "Pertama";
+
+    function kedua(){
+        console.info(varPertama);
+        let varKedua = "Kedua";
+    }
+
+    kedua();
+    // console.info(varKedua); // tidak bisa diakses di luar tempat dibuatnya
+}; // global scope dan local scope juga berlaku di nested function
+
+pertama();
 
 // Program ini mendemonstrasikan pembuatan dan pemanggilan function
