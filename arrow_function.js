@@ -38,3 +38,5 @@ Kekurangan Arrow Function :
 3. Tidak bisa mengakses this
 4. Tidak bisa mengakses super
 */
+
+// Program ini mendemonstrasikan penggunaan arrow (=>) untuk membuat function dengan lebih sederhana
