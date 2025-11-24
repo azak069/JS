@@ -1,4 +1,4 @@
-console.info(this); // this yang merujuk pada keseluruhan 
+console.info(this); // this yang merujuk pada keseluruhan(window)
 
 // function contoh(){
 //     console.info(this);
@@ -14,7 +14,7 @@ console.info(this); // this yang merujuk pada keseluruhan
 // };
 
 // luar();
-// menggunakan this dalam function atau nested function sama saja merujuk pada keseluruhan
+// menggunakan this dalam function atau nested function sama saja merujuk pada keseluruhan(window)
 
 const orang = {
     nama: "Zaki",
