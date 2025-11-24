@@ -32,6 +32,8 @@ const manusia = {
     }
 };
 // menggunakan this untuk merujuk pada nilai yang ada di dalam object yang memiliki function tersebut
-manusia.sapa("Zaki")
+manusia.sapa("Zaki");
+
+// tidak bisa digunakan di arrow function
 
 // Program ini mendemonstrasikan penggunaan this dalam object method untuk merujuk ke object yang memiliki function
