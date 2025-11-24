@@ -35,8 +35,8 @@ buatNama(nama => console.info(`Hai ${nama}`));
 Kekurangan Arrow Function :
 1. Tidak memiliki fitur arguments object
 2. Tidak bisa menggunakan function generator
-3. Tidak bisa mengakses this
-4. Tidak bisa mengakses super
+3. Tidak bisa menggunakan this
+4. Tidak bisa menggunakan super
 */
 
 // Program ini mendemonstrasikan penggunaan arrow (=>) untuk membuat function dengan lebih sederhana
