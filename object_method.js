@@ -18,4 +18,13 @@ orang.salam = function(nama){
 };
 // bisa juga memasukkan function ke dalam object langsung, jika sudah punya object
 
+const profil = {
+    nama: "Zaki",
+    sapa: (nama) => {
+        console.info(`Halo ${nama}`);
+    }
+};
+// bisa juga membuat arrow function di dalam object, tapi memiliki keterbatasan arrow function
+profil.sapa("azak");
+
 // Program ini mendemonstrasikan penggunaan object method, yaitu memasukkan fuction ke dalam object
