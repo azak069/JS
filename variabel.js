@@ -1,5 +1,5 @@
 var namaLengkap = "Albert Camus"; // dulu menggunakan var tapi sekarang sudah tidak direkomendasikan
-// karena var tidak memiliki block scope atau tidak terikat pada scope tertentu (global atau local)
+// karena var tidak terikat pada block scope dan selalu global
 namaLengkap = "Abdurahman Zaki";
 namaLengkap = "Emil" + " " + "Cioran";
 let nama = "Albert"; // sekarang menggunakan let
